@@ -25,3 +25,6 @@
 }
 @media(min-width:520px) and (max-width:700px){.hero-photo{aspect-ratio:1.9}.hero .button{width:auto;min-width:270px}.treatment,.treatment:first-child,.treatment:last-child{grid-template-columns:180px 1fr;min-height:190px}}
 @media(max-width:350px){.hero h1{font-size:41px}.hero .eyebrow{font-size:10px;letter-spacing:.5px}.treatment,.treatment:first-child,.treatment:last-child{grid-template-columns:33% 1fr;gap:0 11px}.treatment h3{font-size:26px}.treatment p{font-size:14px}.space-copy h2{font-size:32px}}
+
+/* Ícones PNG com dimensão estável e contraste nos botões. */
+.ui-icon{display:inline-block!important;width:24px!important;height:24px!important;min-width:24px;object-fit:contain;vertical-align:middle;transform:none!important;flex-shrink:0}.access-button .ui-icon,.button .ui-icon,footer .ui-icon{filter:brightness(0) invert(1)}.project:hover .access-button .ui-icon,.project:focus-visible .access-button .ui-icon{filter:none}.menu-toggle .ui-icon{width:22px!important;height:22px!important}.close .ui-icon{width:20px!important;height:20px!important}
